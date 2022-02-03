@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* 
+Cyan #0093DD
+Lyan #75C5F0	
+Dyan #007BB8
+Pyan #D81B60
+Gyan #16BC00
+*/
+
+/* SUPER */
+.background,
+form.tmp-form button.pri,
+aside section.menu ul li a.selected {
+  background-color: #0099dd;
+}
+
+.color,
+header h2 {
+  color: #0099dd;
+}
+
+.border,
+form.tmp-form button.pri {
+  border-color: #0099dd;
+}
+
+/* DERIVED */
+.background,
+form.tmp-form button.pri,
+table.tmp-invoice .btn-pri,
+aside section.menu ul li a.selected {
+  background-color: #0099dd;
+  background-color: #673ab7;
+}
+
+.color,
+header h2 {
+  color: #0099dd;
+  color: #673ab7;
+}
+
+.border,
+form.tmp-form button.pri,
+table.tmp-invoice .btn-pri {
+  border-color: #0099dd;
+  border-color: #673ab7;
+}
+
+header {
+  background-color: #007BB8;
+  background-color: #000;
+  min-height: auto;
+  padding: 5px 20px 5px;
+  text-align: center;
+  
+}
+header img {
+width: 140px;}

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+main.print {
+	padding:10px;
+	background-color:#FFF;}
+
+table.print-thead {
+	width:auto;}
+	
+table.print-thead .title {
+	padding:10px 20px;
+	margin:20px 0;
+	background-color:#FF98CB;
+	background-color:#600;
+	color:#FFF;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:32px;
+	font-weight:bold;}	
+	
+table.print-thead caption a {
+	color:blue;
+	text-decoration:underline;}
+	
+table.print-thead tr th {
+	padding:5px 10px;
+	padding-right:20px;
+	text-align:left;
+	font-weight:normal;}	
+	
+table.print-thead tr td {
+	width:800px;
+	font-weight:bold;	
+	border-bottom:solid 3px;}		
+	
+table.print-thead .nw, 
+table.print-tbody .nw {
+	white-space:nowrap;}
+	
+table.print-thead .ar, 
+table.print-tbody .ar {
+	text-align:right;}	
+	
+table.print-tbody .bb {
+	border-bottom:solid 5px;}
+	
+table.print-tbody .null {
+	background-color:#FF98CB;}		
+
+table.print-tbody .t_label, 
+table.print-tbody .t_value {
+	color:#600;
+	font-size:24px;
+	font-weight:bold;}
+	
+	
+table.print-tbody th, 
+table.print-tbody td {
+	padding:5px 10px;}
+	
+
+	
+	
+	
+	
+	
+	
+	

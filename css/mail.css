@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+table.tmp-mail {
+  font-size: 12px;
+  border-collapse: collapse;
+}
+table.tmp-mail caption {
+  text-align: right;
+  margin: 5px 10px 15px;
+}
+table.tmp-mail tr {
+  vertical-align: top;
+}
+table.tmp-mail tr th {
+  order: solid thin #e11;
+  width: 1px;
+  font-weight: normal;
+}
+table.tmp-mail tr td {
+  order: solid thin #069;
+}
+
+table.tmp-mail caption .fieldset {
+  display: inline-block;
+}
+table.tmp-mail caption .fieldset i {
+  color: #444;
+}
+table.tmp-mail caption input,
+table.tmp-mail caption button {
+  border: none;
+  display: inline-block;
+  -webkit-transition: all 0.2s; /* Safari */
+  transition: all 0.2s;
+}
+table.tmp-mail caption input {
+  background-color: transparent;
+  padding: 10px 15px;
+  width: 200px;
+  box-shadow: 0 2px 4px 0 #ccc;
+}
+table.tmp-mail caption input:focus {
+  /* background-color: #ffc; */
+  outline: none;
+  width: 210px;
+}
+table.tmp-mail caption button {
+  padding: 10px;
+  background-color: transparent;
+  color: #444;
+}
+table.tmp-mail caption button:hover {
+  color: #111;
+}
+
+table.tmp-mail tr th ul {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  min-width: 250px;
+  max-width: 250px;
+  box-shadow: 0 2px 4px 0 #ddd;
+}
+table.tmp-mail tr th ul li {
+  display: block;
+}
+table.tmp-mail tr th ul li.divide {
+  padding: 15px 15px 5px;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+table.tmp-mail tr th ul li a {
+  color: #555;
+  padding: 12px 12px 12px 15px;
+  font-size: 13px;
+  border-top: solid thin transparent;
+  border-bottom: solid thin transparent;
+  border-left: solid 5px transparent;
+  display: block;
+  -webkit-transition: background-color 0.2s; /* Safari */
+  transition: background-color 0.2s;
+}
+table.tmp-mail tr th ul li a.selected {
+  border-left: solid 5px #555;
+}
+table.tmp-mail tr th ul li a:hover {
+  background-color: #ddd;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  border-left: solid 5px #555;
+}
+table.tmp-mail tr th ul li i {
+  font-size: 14px;
+  float: left;
+  margin: 2px 15px 0 0;
+}
+table.tmp-mail tr th ul li var {
+  padding: 3px 8px;
+  background-color: #069;
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  ont-weight: bold;
+  border-radius: 25px;
+  float: right;
+}
+
+table.tmp-mail tr td form legend {
+  text-align: left;
+  margin-left: 10px;
+}
+table.tmp-mail tr td form legend i {
+  margin-right: 5px;
+}
+table.tmp-mail tr td form a {
+  color: #111;
+  padding: 10px 12px;
+  margin: 0;
+  margin-top: 10px;
+  display: inline-block;
+  border: solid thin #555;
+}

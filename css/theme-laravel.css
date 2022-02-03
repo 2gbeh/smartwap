@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* LARAVEL THEME
+	=====================  
+	logo	 	#ff2d20
+	bg	 	#1a202c
+	fg	 	#2d3748
+	footer	 	#f5f5fa
+  ---------------------
+  replace link and watermark and profile icon/label
+*/
+
+body {
+  background-color: #1a202c;
+  color: #fff;
+}
+header,
+nav,
+.footer {
+  text-shadow: none;
+  box-shadow: none;
+}
+aside {
+  background-color: #2d3748;
+  border-color: #1a202c;
+}
+aside section.menu ul li a {
+  color: #fff;
+}
+aside section.menu ul li a:hover {
+  background-color: #1a202c;
+  border-color: #f5f5fa;
+}
+.anum div,
+.anum_scanner output,
+.footer {
+  color: #fff;
+}
+.footer a {
+  color: #ff2d20;
+}
+.footer a:hover {
+  color: inherit;
+}
+
+form.tmp-form,
+table.tmp-table,
+section.tmp-profile {
+  background-color: #2d3748;
+  color: #fff;
+  box-shadow: 2px 2px 0px #222;
+}
+form.tmp-form input,
+form.tmp-form select,
+form.tmp-form textarea {
+  background-color: #1a202c;
+  color: #fff;
+  border-color: #1a202c;
+}
+form.tmp-form input:focus,
+form.tmp-form select:focus,
+form.tmp-form textarea:focus {
+  border-color: #f5f5fa;
+}
+form.tmp-form button.sec {
+  background-color: inherit;
+  border-color: inherit;
+}
+form.tmp-form-login input {
+  background-color: transparent;
+}
+
+table.tmp-table tr th {
+  color: #ff2d20;
+  border-color: #1a202c;
+}
+table.tmp-table tr td {
+  border-color: #1a202c;
+}
+table.tmp-table tr:hover td {
+  background-color: #1a202c;
+  border-color: #f5f5fa;
+}
+table.tmp-table tr th a,
+table.tmp-table tr td a,
+section.tmp-profile ul li a {
+  color: #ffc;
+}
+
+section.tmp-profile .action,
+section.tmp-profile ul li table tr td {
+  color: #fff;
+  border-color: #1a202c;
+}
+section.tmp-profile ul li i,
+section.tmp-profile ul li label {
+  color: #ccc;
+}
+
+table.chart,
+table.chart caption {
+  background-color: #2d3748;
+  text-shadow: none;
+  box-shadow: 2px 2px 0px #222;
+}
+table.chart caption {
+  border-bottom: solid #1a202c;
+  box-shadow: none;
+}
+table.chart ol {
+  box-shadow: 0 1px 0 #222;
+}
+table.chart_macro tr:first-child th{
+  color: #fff;
+}
+table.chart_macro tr td,
+table.chart_postit tr th,
+table.chart_postit label {
+  color: #ccc;
+}
+table.chart_column tbody tr td,
+table.chart_column tfoot tr td,
+table.chart_column tfoot tr:first-child td,
+table.chart_column tbody tr td.active,
+table.chart_cstick tbody tr td,
+table.chart_cstick tfoot tr td,
+table.chart_cstick tfoot tr:first-child td {
+  border-color: #1a202c;
+}
+table.chart_cstick tbody tr td var.alt::after {
+  background-color: #2d3748;
+}
+
+/* OVERWRITE DEFAULT THEME */
+.background,
+form.tmp-form button.pri,
+aside section.menu ul li a.selected {
+  background-color: #ff2d20;
+  color: #fff;
+}
+
+.color,
+header h2 {
+  color: #ff2d20;
+}
+
+.border,
+form.tmp-form button.pri {
+  border-color: #ff2d20;
+}

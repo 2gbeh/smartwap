@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* REACT THEME
+	=====================  
+	logo-bg		#222222
+	logo-txt 	#00d8ff
+	site-txt	#60dbfb	
+	bg, header	#20232a
+	fg, nav, txt	#282c34
+	bd, wtmk	#33373e
+	aside		#f7f7f7
+	link		#eafafe
+  ---------------------
+*/
+
+body {
+  background-color: #20232a;
+  color: #fff;
+}
+header,
+nav,
+.footer {
+  text-shadow: none;
+  box-shadow: none;
+}
+aside {
+  background-color: #282c34;
+  border-color: #33373e;
+}
+aside section.menu ul li a {
+  color: #eafafe;
+}
+aside section.menu ul li a:hover {
+  background-color: #33373e;
+  border-color: #f7f7f7;
+}
+.anum div,
+.anum_scanner output,
+.footer {
+  color: #f7f7f7;
+}
+.footer a {
+  color: #60dbfb;
+}
+.footer a:hover {
+  color: inherit;
+}
+
+form.tmp-form,
+table.tmp-table,
+section.tmp-profile {
+  background-color: #282c34;
+  color: #eafafe;
+  box-shadow: 2px 2px 0px #222;
+}
+form.tmp-form input,
+form.tmp-form select,
+form.tmp-form textarea {
+  background-color: #20232a;
+  color: #fff;
+  border-color: #33373e;
+}
+form.tmp-form input:focus,
+form.tmp-form select:focus,
+form.tmp-form textarea:focus {
+  border-color: #eafafe;
+}
+form.tmp-form button.sec {
+  background-color: inherit;
+  border-color: inherit;
+}
+form.tmp-form-login input {
+  background-color: transparent;
+}
+
+table.tmp-table tr th {
+  color: #60dbfb;
+  border-color: #20232a;
+}
+table.tmp-table tr td {
+  border-color: #20232a;
+}
+table.tmp-table tr:hover td {
+  background-color: #33373e;
+  border-color: #f7f7f7;
+}
+table.tmp-table tr th a,
+table.tmp-table tr td a,
+section.tmp-profile ul li a {
+  color: #ffc;
+}
+
+section.tmp-profile .action,
+section.tmp-profile ul li table tr td {
+  color: #eafafe;
+  border-color: #222;
+}
+section.tmp-profile ul li i,
+section.tmp-profile ul li label {
+  color: #ccc;
+}
+
+table.chart,
+table.chart caption {
+  background-color: #282c34;
+  text-shadow: none;
+  box-shadow: 2px 2px 0px #222;
+}
+table.chart caption {
+  border-bottom: solid #20232a;
+  box-shadow: none;
+}
+table.chart ol {
+  box-shadow: 0 1px 0 #222;
+}
+table.chart_macro tr:first-child th{
+  color: #fff;
+}
+table.chart_macro tr td,
+table.chart_postit tr th,
+table.chart_postit label {
+  color: #ccc;
+}
+table.chart_column tbody tr td,
+table.chart_column tfoot tr td,
+table.chart_column tfoot tr:first-child td,
+table.chart_column tbody tr td.active,
+table.chart_cstick tbody tr td,
+table.chart_cstick tfoot tr td,
+table.chart_cstick tfoot tr:first-child td {
+  border-color: #20232a;
+}
+table.chart_cstick tbody tr td var.alt::after {
+  background-color: #282c34;
+}
+
+/* OVERWRITE DEFAULT THEME */
+.background,
+form.tmp-form button.pri,
+aside section.menu ul li a.selected {
+  background-color: #60dbfb;
+  color: #282c34;
+}
+
+.color,
+header h2 {
+  color: #60dbfb;
+}
+
+.border,
+form.tmp-form button.pri {
+  border-color: #60dbfb;
+}

@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* FLATIFY THEME
+	=====================  
+	main    #ec5e69
+	accent  #5893df 
+	aside   #131c29
+	bg      #192231
+	fg      #24344d
+  ---------------------
+*/
+
+body {
+  background-color: #192231;
+  color: #fff;
+}
+header,
+nav,
+.footer {
+  text-shadow: none;
+  box-shadow: none;
+}
+aside {
+  background-color: #131c29;
+  border-color: #24344d;
+}
+aside section.menu ul li a:hover {
+  background-color: #192231;
+  border-color: #f4f4f4;
+}
+aside section.menu ul li a,
+.anum div,
+.anum_scanner output,
+.footer,
+table.chart_macro tr:first-child th,
+table.tmp-invoice-tfoot caption,
+table.tmp-invoice-tfoot caption article,
+table.tmp-mail caption .fieldset i,
+table.tmp-mail tr th ul li a {
+  color: #fff;
+  text-shadow: none;
+}
+.footer a,
+table.tmp-invoice-tfoot caption h1,
+table.tmp-mail caption button:hover {
+  color: #5893df;
+}
+.footer a:hover {
+  color: inherit;
+}
+.notice,
+table.tmp-mail caption input {
+  box-shadow: 2px 2px 0px #131c29;
+}
+
+form.tmp-form,
+table.tmp-table,
+section.tmp-profile,
+table.chart,
+table.chart caption,
+table.tmp-invoice,
+table.tmp-mail tr th ul {
+  background-color: #24344d;
+  color: #fff;
+  text-shadow: none;
+  box-shadow: 2px 2px 0px #131c29;
+}
+form.tmp-form input,
+form.tmp-form select,
+form.tmp-form textarea,
+table.tmp-invoice input,
+table.tmp-mail caption input,
+table.tmp-mail caption input:focus,
+table.tmp-mail caption button,
+table.tmp-mail tr th ul li a:hover {
+  background-color: #192231;
+  color: #fff;
+  border-color: #131c29;
+}
+form.tmp-form input:focus,
+form.tmp-form select:focus,
+form.tmp-form textarea:focus,
+table.tmp-mail caption input:focus {
+  border-color: #5893df;
+}
+form.tmp-form button.sec,
+table.tmp-invoice .btn-sec {
+  background-color: #5893df;
+  border-color: #5893df;
+}
+form.tmp-form-login input {
+  background-color: transparent;
+}
+
+table.tmp-table tr th {
+  color: #5893df;
+  border-color: #192231;
+}
+table.tmp-table tr td {
+  border-color: #192231;
+}
+table.tmp-table tr:hover td {
+  background-color: #131c29;
+  border-color: #f4f4f4;
+}
+table.tmp-table tr th a,
+table.tmp-table tr td a,
+section.tmp-profile ul li a {
+  color: #ec5e69;
+}
+
+section.tmp-profile .action,
+section.tmp-profile ul li table tr td {
+  color: #fff;
+  border-color: #192231;
+}
+section.tmp-profile ul li i,
+section.tmp-profile ul li label,
+table.chart_macro tr td,
+table.chart_postit tr th,
+table.chart_postit label,
+table.tmp-ribbon tr th,
+table.tmp-invoice tr th {
+  color: #ccc;
+  text-shadow: none;
+}
+
+table.chart caption {
+  border-bottom: solid #192231;
+  box-shadow: none;
+}
+table.chart ol {
+  box-shadow: 0 1px 0 #131c29;
+}
+table.chart_column tbody tr td,
+table.chart_column tfoot tr td,
+table.chart_column tfoot tr:first-child td,
+table.chart_column tbody tr td.active,
+table.chart_splot tbody tr td,
+table.chart_splot tfoot tr td,
+table.chart_splot tfoot tr:first-child td,
+table.chart_cstick tbody tr td,
+table.chart_cstick tfoot tr td,
+table.chart_cstick tfoot tr:first-child td {
+  border-color: #192231;
+}
+table.chart_cstick tbody tr td var.alt::after {
+  background-color: #24344d;
+}
+table.tmp-mail tr th ul li a.selected {
+  border-color: #131c29;
+}
+
+table.tmp-invoice-tfoot tfoot {
+  background-color: #192231;
+}
+table.tmp-invoice-tfoot tfoot tr th,
+table.tmp-invoice-tfoot tfoot tr td {
+  color: #fff;
+}
+
+form.tmp-report fieldset,
+form.tmp-report select {
+  border-color: #24344d;
+}
+form.tmp-report legend,
+form.tmp-report select {
+  color: #eee;
+}
+form.tmp-report select option {
+  background-color: #192231;
+}
+form.tmp-report select:focus {
+  border-color: #eee;
+}
+
+table.tmp-report tr.tfoot th,
+table.tmp-report tr.tfoot td {
+  color: #ec5e69;
+  border-color: #131c29;
+}
+
+/* OVERWRITE DEFAULT THEME */
+.background,
+form.tmp-form button.pri,
+table.tmp-invoice .btn-pri,
+aside section.menu ul li a.selected,
+table.tmp-mail tr td form a,
+form.tmp-report button.pri {
+  background-color: #ec5e69;
+  color: #fff;
+}
+
+.color,
+header h2 {
+  color: #ec5e69;
+}
+
+.border,
+form.tmp-form button.pri,
+table.tmp-invoice .btn-pri,
+form.tmp-report button.pri {
+  border-color: #ec5e69;
+}

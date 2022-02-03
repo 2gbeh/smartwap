@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+table.tmp-grid {
+  border-collapse: separate;
+}
+table.tmp-grid tr {
+  vertical-align: bottom;
+}
+table.tmp-grid tr td {
+  padding: 0 10px;
+  min-width: 10px;
+  max-width: 10px;
+  white-space: nowrap;
+}
+table.tmp-grid tr td:first-child {
+  padding-left: 0;
+}
+table.tmp-grid tr td:last-child {
+  padding-right: 0;
+}
+table.tmp-grid tr td[hr] {
+  border-bottom: dashed thin #555;
+}
+
+table.tmp-table {
+  background-color: #fff;
+  font-size: 12px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px 0 #ddd;
+}
+table.tmp-table caption {
+  padding: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+table.tmp-table tr {
+  vertical-align: top;
+}
+table.tmp-table tr th {
+  padding: 15px 10px;
+  text-align: left;
+  border-bottom: solid #ddd;
+}
+table.tmp-table tr th a,
+table.tmp-table tr td a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+table.tmp-table tr td {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: solid thin #ddd;
+  line-height: 20px;
+}
+table.tmp-table tr:hover td {
+  background-color: #eee;
+}
+
+table.tmp-table tr td .btn {
+  padding: 0 2px;
+  margin-top: -5px;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 1.2;
+  border-radius: 1px;
+  cursor: pointer;
+}
+table.tmp-table tr td .btn:hover {
+  background-color: #e5f1fb;
+}
+
+table.tmp-table tr td .btn-pri {
+  color: #090;
+}
+table.tmp-table tr td .btn-sec {
+  color: #e11;
+}
+table.tmp-table tr td .btn-alt {
+  color: #069;
+}
+table.tmp-table tr td .btn-prt {
+  padding: 5px 10px;
+  background-color: #069;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+table.tmp-table tr td .btn-prt:hover {
+  color: #222;
+}
+
+table.tmp-ribbon tr th {
+  padding: 20px 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+}
+table.tmp-ribbon tr td {
+  padding: 0 15px 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+table.tmp-ribbon var {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+table.tmp-ribbon .high {
+  color: #16bc00;
+}
+table.tmp-ribbon .low {
+  color: #e11;
+}
+table.tmp-ribbon .mid {
+  color: #069;
+}
+
+table.tmp-invoice {
+  background-color: #fff;
+  font-size: 12px;
+  box-shadow: 0 2px 4px 0 #ddd;
+}
+table.tmp-invoice caption {
+  margin: 10px 0 15px;
+  text-align: right;
+}
+table.tmp-invoice .btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  border: solid thin;
+}
+table.tmp-invoice .btn-pri {
+  background-color: #0993dd;
+  border-color: #007bb8;
+}
+table.tmp-invoice .btn-sec {
+  background-color: #777;
+  border-color: #555;
+}
+table.tmp-invoice .btn:hover {
+  filter: brightness(95%);
+}
+table.tmp-invoice tr {
+  vertical-align: top;
+}
+table.tmp-invoice tr th {
+  padding: 15px 25px 10px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+table.tmp-invoice tr td {
+  padding: 0 25px 15px;
+  line-height: 20px;
+}
+table.tmp-invoice tr td:nth-child(3) {
+  padding-right: 0;
+}
+table.tmp-invoice label {
+  margin-top: 3px;
+  font-weight: bold;
+  display: block;
+}
+table.tmp-invoice input {
+  margin-top: 1px;
+  padding: 3px 5px;
+  border: solid thin #ddd;
+  border-top: none;
+  display: block;
+}
+
+table.tmp-invoice-tfoot tfoot {
+  background-color: #eee;
+  font-size: 12px;
+}
+table.tmp-invoice-tfoot tfoot tr th,
+table.tmp-invoice-tfoot tfoot tr td {
+  font-weight: normal;  
+  border-top: dotted #ccc;
+  border-bottom: solid #ccc;
+}
+table.tmp-invoice-tfoot tfoot tr th {
+  text-align: right;
+  ext-transform: uppercase;
+}
+table.tmp-invoice-tfoot tfoot tr td {  
+  text-decoration:underline;
+}
+
+table.tmp-invoice-tfoot caption {
+  caption-side: bottom;
+  margin: 10px 30px;
+  padding: 0;
+  text-align: left;
+  text-transform: none;
+  font-weight: normal;
+  order: solid thin red;
+}
+table.tmp-invoice-tfoot caption article {
+  color: #333;
+  font-weight: normal;
+  line-height: 20px;
+  max-width: 455px;
+}
+table.tmp-invoice-tfoot caption h1 {
+  color: #111;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 20px 0 5px;
+}
+table.tmp-invoice-tfoot caption var {
+  float: right;
+  letter-spacing: 1px;
+}

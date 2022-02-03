@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  padding: 5px 0;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 4px #ccc;
+}
+header img {
+  width: 40px;
+}
+header img.lg {
+  width: 60px;
+}
+header h2 {
+  margin: 10px 0 0 10px;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #555;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav {
+  padding: 10px;
+  margin: 10px 20px;
+  margin-top: 0;
+  text-shadow: 0 1px #fff;
+  font-size: 12px;
+  border-bottom: solid thin #ccc;
+}
+nav b {
+  cursor: default;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+nav ul li {
+  margin: 0 5px;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a.selected {
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #e11;
+}
+nav ul li a.inactive {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+main {
+  margin: 0 auto;
+}
+main.tmp-landing {
+  padding-top: 100px;
+  width: 450px;
+}
+main.tmp-base {
+  padding: 15px;
+  min-width: 1240px;
+}
+
+.footer {
+  text-align: center;
+  text-shadow: 0 1px #fff;
+  font-size: 14px;
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+}
+.footer a {
+  font-weight: bold;
+}
+.footer a:hover {
+  color: #333;
+}
+
+footer {
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  text-shadow: none;
+  font-size: 12px;
+}
+footer a {
+  color: #0093dd;
+  text-transform: uppercase;
+}
+footer section {
+  float: right;
+}
+footer .build {
+  color: #d81b60;
+  display: inline-block;
+}
+footer .proxy {
+  color: #fff;
+  display: inline-block;
+}
