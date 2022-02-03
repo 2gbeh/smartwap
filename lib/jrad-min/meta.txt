@@ -1,0 +1,108 @@
+<html class="no-js" lang="en-US" prefix="og: https://ogp.me/ns#">
+
+<link type="image/png" href="favicon.png" sizes="32x32" rel="icon" />
+<title>Expert Mining Options | Binary Trading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta
+  name="description"
+  content="Binary trading with Expert Mining Options is totally different from its competitors trying to achieve something special starting with the..."
+/>
+<meta
+  name="keywords"
+  content="expertminingoptions,expert mining option,expert mining options,crypto options,crypto trading,crypto broker,crypto website,binary options,binary trading"
+/>
+<!-- Open Graph -->
+<meta property="og:site_name" content="Expert Mining Options" />
+<meta property="og:title" content=">Expert Mining Options | Binary Trading" />
+<meta property="og:url" content="https://expertminingoptions.org" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:description"
+  content="Binary trading with Expert Mining Options is totally different from its competitors trying to achieve something special starting with the..."
+/>
+<meta property="og:image" content="/wasabi/site/assets/og-image.png" />
+<meta property="og:determiner" content="auto" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<!-- Twitter Card -->
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:title" content=">Expert Mining Options | Binary Trading" />
+<meta property="twitter:url" content="https://expertminingoptions.org" />
+<meta
+  property="twitter:description"
+  content="Binary trading with Expert Mining Options is totally different from its competitors trying to achieve something special starting with the..."
+/>
+<meta property="twitter:image" content="/wasabi/site/assets/og-image.png" />
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<!-- Search Engine Optimization (SEO) -->
+<meta name="author" content="<?php echo $META->author; ?>" />
+<meta name="classification" content="<?php echo $META->classification; ?>" />
+<meta name="copyright" content="<?php echo $META->copyright; ?>" />
+<meta name="coverage" content="<?php echo $META->coverage; ?>" />
+<meta name="description" content="<?php echo $META->description; ?>" />
+<meta name="designer" content="<?php echo $META->designer; ?>" />
+<meta name="keywords" content="<?php echo $META->keywords; ?>"/>
+<meta name="language" content="<?php echo $META->language; ?>" />
+<meta name="owner" content="<?php echo $META->owner; ?>" />
+<meta name="reply-to" content="<?php echo $META->reply_to; ?>" />
+<meta name="revised" content="<?php echo $META->revised; ?>" />
+<meta name="robots" content="<?php echo $META->robots; ?>" />
+<meta name="theme-color" content="<?php echo $META->theme_color; ?>" />
+<meta name="url" content="<?php echo $META->url; ?>" />
+<meta name="viewport" content="<?php echo $META->viewport; ?>" />
+<!-- Open Graph -->
+<meta property="og:site_name" content="<?php echo $META->appname; ?>" />
+<meta property="og:title" content="<?php echo $META->title; ?>" />
+<meta property="og:url" content="<?php echo $META->url; ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="<?php echo $META->description; ?>" />
+<meta property="og:image" content="<?php echo $META->preview; ?>" />
+<meta property="og:determiner" content="auto" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<!-- Twitter Card -->
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:title" content="<?php echo $META->title; ?>" />
+<meta property="twitter:url" content="<?php echo $META->url; ?>" />
+<meta property="twitter:description" content="<?php echo $META->description; ?>" />
+<meta property="twitter:image" content="<?php echo $META->preview; ?>" />
+
+<title><?php echo $META->title; ?></title>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ROBOTS" content="ALL" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <meta name="Copyright" content="Django Software Foundation" />
+    <meta name="keywords" content="Python, Django, framework, open-source" />
+    <meta name="description" content="" />
+
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png">
+    <link rel="icon" sizes="192x192" href="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png">
+    <link rel="shortcut icon" href="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico">
+    <meta name="msapplication-TileColor" content="#113228">
+    <meta name="msapplication-TileImage" content="https://static.djangoproject.com/img/icon-tile.b01ac0ef9f67.png">
